@@ -1,0 +1,17 @@
+[
+  {
+    "type": "construction_group",
+    "id": "build_pool",
+    "name": "Build a pool"
+  },
+  {
+    "type": "construction_group",
+    "id": "build_river_sh",
+    "name": "Build river shallow"
+  },
+  {
+    "type": "construction_group",
+    "id": "build_river_dp",
+    "name": "Build river deep"
+  }
+]

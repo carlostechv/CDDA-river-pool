@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "Carlos_Mod_River_Pool",
+    "name": "Carlos Mod River Pool",
+    "authors": [ "Carlos" ],
+    "description": "Adds the player the possibility to build flowing rivers and deep pool.",
+    "category": "general",
+    "dependencies": [ "dda" ],
+    "obsolete": false
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "type": "construction",
+    "id": "constr_pool",
+    "group": "build_pool",
+    "category": "CONSTRUCT",
+    "required_skills": [ [ "survival", 2 ] ],
+    "time": "60 m",
+    "qualities": [ [ { "id": "DIG", "level": 2 } ] ],
+    "components": [ [ [ "water", 60 ], [ "water_clean", 60 ] ] ],
+    "pre_terrain": "t_pit",
+    "post_terrain": "t_water_pool"
+  },
+  {
+    "type": "construction",
+    "id": "constr_river_sh",
+    "group": "build_river_sh",
+    "category": "CONSTRUCT",
+    "required_skills": [ [ "survival", 2 ] ],
+    "time": "30 m",
+    "qualities": [ [ { "id": "DIG", "level": 2 } ] ],
+    "components": [ [ [ "water", 60 ], [ "water_clean", 60 ] ] ],
+    "pre_terrain": "t_pit_shallow",
+    "post_terrain": "t_water_moving_sh"
+  },
+  {
+    "type": "construction",
+    "id": "constr_river_dp",
+    "group": "build_river_dp",
+    "category": "CONSTRUCT",
+    "required_skills": [ [ "survival", 2 ] ],
+    "time": "30 m",
+    "qualities": [ [ { "id": "DIG", "level": 2 } ] ],
+    "components": [ [ [ "water", 60 ], [ "water_clean", 60 ] ] ],
+    "pre_terrain": "t_pit",
+    "post_terrain": "t_water_moving_dp"
+  }
+]
